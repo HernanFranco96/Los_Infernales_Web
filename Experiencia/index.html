@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lampone</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function cargar() {
+            var barra = document.getElementById('barra');
+            if(barra.value <= 335)
+            {
+                barra.value += 5
+            }
+        }
+    </script>
+</head>
+<body onload="setInterval('cargar()',10)">   
+    <button class="boton"><a href="../Rangos/index.html">Volver</a></button>
+
+    <div class="contenedor">
+            <p class="name">Nombre: Lampone</p>
+            <p class="rango">Rango actual: Lider</p>
+            <p class="rango">Proximo Rango: -</p>
+            <label class="experiencia">335/1000 EXP</label>
+            <form name="formulario" method="post" action="">
+                <progress id="barra" max="1000" value="0"></progress>
+            </form>
+    </div>
+</body>
+</html>

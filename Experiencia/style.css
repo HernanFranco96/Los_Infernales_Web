@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/font.jpg);
+}
+.boton{
+    width: 100px; 
+    height: 50px; 
+    background-color: rgba(0, 0, 0, .4); 
+    border: 2px #000 solid; 
+    border-radius:5px;
+    font-size: 25px;
+    margin: 3px;
+}
+.boton a{
+    text-decoration: none;
+    color: #fff;
+}
+.boton:hover{
+    background-color: rgba(60, 60, 60, .8);
+}
+.contenedor{
+    font-family: 'MedievalSharp', cursive;
+    color: #fff;
+    background-color:rgba(0, 0, 0, .5);
+    height:200px;
+    width: auto;
+    max-height: 200px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    border: 2px #000 solid;
+    border-radius: 10px;
+}
+.name{
+    font-size: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: left;
+}
+.rango{
+    font-size: 30px;
+    float: left;
+    margin-left: 25px;
+}
+.experiencia{
+    float: right;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+progress{
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 30px;
+    border-radius: 10px;
+    float: left;
+}
+progress::-webkit-progress-bar{ /*Editamos la barra de fondo*/
+    border-radius: 5px;
+    background-color: rgba(227, 248, 232, .3);
+}
+progress::-webkit-progress-value{ /*Editamos el avanze de la barra*/
+    border-radius: 5px;
+    background-color: rgba(3, 4, 16, .8);
+}
+
+@media screen and (max-width: 470px){
+	.contenedor{
+        max-height: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 360px){
+	.contenedor{
+        max-height: 300px;
+        height: 300px;
+    }
+}

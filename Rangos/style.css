@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("img/font.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+   
+    /*background-color:brown;*/
+    color: white;
+    /*font-family: 'MedievalSharp', cursive;*/
+    font-family: 'Roboto', sans-serif;
+}
+.boton{
+    float: left;
+    width: 100px; 
+    height: 50px; 
+    background-color: rgba(0, 0, 0, .4); 
+    border: 2px #000 solid; 
+    border-radius:5px;
+    font-size: 25px;
+    margin: 3px;
+}
+.boton a{
+    text-decoration: none;
+    color: #fff;
+}
+.boton:hover{
+    background-color: rgba(60, 60, 60, .8);
+}
+.corona{
+    width: 20px;
+    margin-right: 3px;
+}
+table{
+    margin: auto;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    max-width: 650px;
+}
+.titulo{
+    font-size: 20px;
+}
+strong{
+    margin-bottom: 0px;
+}
+table tr{
+    margin: 5px;
+}
+table tr td{
+    border: 1px #000 solid;
+    text-align: center;
+}
+table tr td a{
+    text-decoration: none;
+    color: white;
+}
+table tr td a:hover{
+    color: #737272;
+}

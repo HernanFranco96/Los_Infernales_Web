@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("img/font.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    color: #fff;
+    font-family: 'MedievalSharp', cursive;
+}
+.boton{
+    width: 100px; 
+    height: 50px; 
+    background-color: rgba(0, 0, 0, .4); 
+    border: 2px #000 solid; 
+    border-radius:5px;
+    font-size: 25px;
+    margin: 3px;
+}
+.boton a{
+    text-decoration: none;
+    color: #fff;
+}
+.boton:hover{
+    background-color: rgba(60, 60, 60, .8);
+}
+main{
+    max-width: 1000px;
+    width: 100%;
+    height: 1700px;
+    background-color: rgba(0, 0, 0, .4);
+    margin: auto;
+    margin-top: 10px;
+}
+h1{
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 20px;;
+    margin-top: 20px;
+}
+.contenido{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 98%;
+    height: 100%;
+}
+table{
+    width: 50%;
+    margin: auto;
+}
+table tr th{
+    background-color: #000;
+}
+table tr td{
+    border: 4px #000 solid;
+}
+
+@media screen and (max-width: 1000px){
+    main{
+        height: 1900px;
+    }
+    table{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    main{
+        height: 2100px;
+    }
+}
