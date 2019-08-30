@@ -65,4 +65,11 @@ h1{
     padding: 5px;
     text-align: center;
 }
-
+@media screen and (max-width: 300px){
+    body{
+        background-image: url("img/font.jpg");
+        background-position: 50% 10%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
